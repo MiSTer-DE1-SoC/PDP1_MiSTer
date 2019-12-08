@@ -1,5 +1,5 @@
 set_global_assignment -name FAMILY "Cyclone V"
-set_global_assignment -name DEVICE 5CSXFC6D6F31C6
+set_global_assignment -name DEVICE 5CSEMA5F31C6
 #set_global_assignment -name DEVICE_FILTER_PACKAGE UFBGA
 #set_global_assignment -name DEVICE_FILTER_PIN_COUNT 672
 #set_global_assignment -name DEVICE_FILTER_SPEED_GRADE 7
@@ -208,8 +208,8 @@ set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HDMI_TX_VS
 #============================================================
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY[0]
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY[1]
-set_location_assignment PIN_Y27 -to KEY[0]
-set_location_assignment PIN_AB28 -to KEY[1]
+set_location_assignment PIN_AC12 -to KEY[0]
+set_location_assignment PIN_AF9 -to KEY[1]
 
 #============================================================
 # LED
@@ -222,7 +222,7 @@ set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LED[4]
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LED[5]
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LED[6]
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LED[7]
-set_location_assignment PIN_AD24 -to LED[0]
+set_location_assignment PIN_V18 -to LED[0]
 #set_location_assignment PIN_AA24 -to LED[1]
 #set_location_assignment PIN_V16 -to LED[2]
 #set_location_assignment PIN_V15 -to LED[3]
